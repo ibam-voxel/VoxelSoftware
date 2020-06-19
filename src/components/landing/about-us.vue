@@ -44,11 +44,17 @@ export default {
             padding-left: 0;
           }
 
+          &:last-child {
+            align-self: center;
+          }
+
           .img {
             background-image: url('../../assets/images/about-us.jpeg');
             width: 100%;
-            height: 100%;
+            height: 100vh;
+            background-position: center;
             background-size: cover;
+            background-repeat: no-repeat;
           }
 
           .justify-content-start {
